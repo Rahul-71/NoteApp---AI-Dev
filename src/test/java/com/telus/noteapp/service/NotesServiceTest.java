@@ -1,8 +1,8 @@
-package com.telus.demo.service;
+package com.telus.noteapp.service;
 
-import com.telus.demo.dao.NotesRepository;
-import com.telus.demo.exception.NoteNotFoundException;
-import com.telus.demo.modal.Note;
+import com.telus.noteapp.dao.NotesRepository;
+import com.telus.noteapp.exception.NoteNotFoundException;
+import com.telus.noteapp.modal.Note;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
